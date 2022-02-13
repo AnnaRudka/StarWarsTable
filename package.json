@@ -1,6 +1,6 @@
 {
     "name": "starwars",
-    "homepage":"https://annarudka.github.io/starwarstable",
+    "homepage":"https://annarudka.github.io/StarWarsTable/",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -9,7 +9,7 @@
         "build": "webpack",
         "build-prod": "webpack --mode=production",
         "clean": "rd /s /q dist",
-        "deploy": "gh-pages -d app"
+        "deploy": "gh-pages -d dist"
     },
     "author": "AnnaRudka",
     "license": "ISC",
